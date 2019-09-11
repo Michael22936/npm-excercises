@@ -1,3 +1,8 @@
+const helloMessage = require('./say-hello');
+
+console.log(helloMessage.niceMess);
+
+
 const $ = require('jquery');
 
 console.log('Hello World');
@@ -12,6 +17,3 @@ $('button').click(function () {
     console.log('test')
 });
 
-const helloMessage = require('./say-hello');
-
-console.log(helloMessage.niceMess);
